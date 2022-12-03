@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Static and Dynamic Page Counter",
+  "version": "1.0",
+  "description": "This extension counts the number of static and dynamic pages in a website",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Static and Dynamic Page Counter"
+  }
+}
